@@ -1,240 +1,132 @@
-# Flight Delay Prediction Application
+# Flight Delay Prediction Application 🛫
 
-A full-stack application that predicts flight delays based on historical FAA data from 2013. Users can select departure and arrival airports along with a day of the week to get delay probability predictions.
+A complete full-stack application that predicts flight delays using historical data and **machine learning models**. The application can predict delays even for routes with no historical data by learning patterns from the entire dataset.
 
-## 🚀 Features
+## 🎯 Key Features
 
-- **Data Processing**: Automated cleaning and processing of 271,940+ flight records
-- **Backend API**: Express.js server with SQLite database and comprehensive REST API
-- **Frontend Interface**: Modern React application with real-time airport search
-- **Prediction Engine**: Statistical analysis based on historical delay patterns
-- **Responsive Design**: Mobile-friendly interface with intuitive controls
+- 📊 **Data Processing**: Automated cleaning of 271,940+ flight records
+- 🤖 **Machine Learning**: Gradient Boosting model with 70.9% ROC-AUC accuracy
+- 🔧 **Backend API**: Express.js with SQLite database and ML integration
+- ⚛️ **Frontend**: React application with search and prediction interface
+- 🔮 **Smart Predictions**: Works even for routes with no historical data
+- 📈 **Fallback System**: Automatic fallback to database queries if ML unavailable
 
-## 📋 Project Structure
+## � Quick Start
 
-```
-flight-delay-app/
-├── backend/                 # Express.js API server
-│   ├── server.js           # Main server file
-│   ├── database.js         # Database manager and migration
-│   ├── package.json        # Backend dependencies
-│   └── README.md           # Backend documentation
-├── frontend/               # React frontend application
-│   ├── src/
-│   │   ├── App.jsx         # Main application component
-│   │   ├── main.jsx        # Application entry point
-│   │   └── index.css       # Styling
-│   ├── package.json        # Frontend dependencies
-│   └── vite.config.js      # Vite configuration
-├── clean-flights.csv       # Processed flight data
-├── flights.csv            # Original flight data (FAA)
-├── data_cleaner.py        # Data cleaning script
-├── start-backend.sh       # Backend startup script
-└── start-frontend.sh      # Frontend startup script
-```
-
-## 🛠️ Quick Start
-
-### Prerequisites
-- Node.js (v16 or higher)
-- Python 3.x (for data processing)
-- npm or yarn
-
-### 1. Clone and Setup
+### Option 1: Start All Services
 ```bash
-git clone <repository-url>
-cd flight-delay-prediction
+./start-all-services.sh
 ```
+This starts the ML API (port 5000), Backend API (port 3000), and Frontend (port 3001).
 
-### 2. Start Backend (Terminal 1)
+### Option 2: Start Individual Services
 ```bash
-# Method 1: Using startup script
+# Start ML Model API
+./start-ml-api.sh
+
+# Start Backend API (in another terminal)
 ./start-backend.sh
 
-# Method 2: Direct npm command
-npm start --prefix backend
-
-# Method 3: Manual way
-cd backend && npm install && npm start
-```
-
-The backend will:
-- Install dependencies automatically
-- Create SQLite database
-- Load and process flight data (first time only)
-- Start server on http://localhost:3000
-
-### 3. Start Frontend (Terminal 2)
-```bash
-# Method 1: Using startup script
+# Start Frontend (in another terminal)  
 ./start-frontend.sh
-
-# Method 2: Direct npm command
-npm run dev --prefix frontend
-
-# Method 3: Manual way
-cd frontend && npm install && npm run dev
 ```
 
-The frontend will start on http://localhost:3001
+## 🧠 Machine Learning Model
 
-### 4. Access Application
-Open your browser and navigate to http://localhost:3001
+The ML model can predict flight delays using features such as:
+- Airport characteristics and traffic patterns
+- Day of the week patterns
+- Seasonal trends  
+- Geographic factors
+- Historical delay rates
 
-## 🎯 How to Use
+**Example**: Tampa International → John Wayne Airport-Orange County on Wednesday
+- **Database**: No historical data available
+- **ML Model**: Predicts 11.6% delay probability with High confidence
 
-1. **Search Departure Airport**: Type in the departure airport field to see suggestions
-2. **Search Arrival Airport**: Type in the arrival airport field to see suggestions  
-3. **Select Day of Week**: Click on the desired day (Monday-Sunday)
-4. **Get Prediction**: Click "Predict Delay Probability" to see results
+## 🏗️ Architecture
 
-## 📊 API Endpoints
-
-The backend provides the following REST API endpoints:
-
-### Health Check
-```http
-GET /health
+```
+┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+│   Frontend      │    │   Backend API   │    │  ML Model API  │
+│   React App     │───▶│   Express.js    │───▶│   Flask + ML    │
+│   Port: 3001    │    │   Port: 3000    │    │   Port: 5000    │
+└─────────────────┘    └─────────────────┘    └─────────────────┘
+                                │
+                                ▼
+                       ┌─────────────────┐
+                       │   SQLite DB     │
+                       │   271K+ flights │
+                       └─────────────────┘
 ```
 
-### Search Airports
-```http
-GET /api/airports/search?q=<query>
-```
+## 📋 API Endpoints
 
-### Get Delay Prediction
-```http
-GET /api/delay-prediction?origin=<airport>&destination=<airport>&dayOfWeek=<1-7>
-```
+### Backend API (Port 3000)
+- `GET /health` - System health and ML model status
+- `GET /api/airports/search?q=<query>` - Search airports
+- `GET /api/delay-prediction` - **ML-Enhanced** delay prediction
+- `GET /api/route-stats` - Weekly route statistics
 
-### Get Route Statistics
-```http
-GET /api/route-stats?origin=<airport>&destination=<airport>
-```
+### ML Model API (Port 5000)  
+- `GET /health` - ML model health check
+- `POST /predict` - Direct ML predictions
+- `GET /model/info` - Model metadata and performance
+- `GET /airports` - Airports known to the model
 
-## 📈 Example Usage
+## 🧪 Testing the ML Enhancement
 
-### Searching for Airports
+### Test Case: Route with No Historical Data
 ```bash
-curl "http://localhost:3000/api/airports/search?q=kennedy"
+curl "http://localhost:3000/api/delay-prediction?origin=Tampa%20International&destination=John%20Wayne%20Airport-Orange%20County&dayOfWeek=3"
 ```
 
-### Getting Delay Prediction
+**Response with ML Model:**
+```json
+{
+  "success": true,
+  "data": {
+    "origin": "Tampa International",
+    "destination": "John Wayne Airport-Orange County", 
+    "dayOfWeek": "Wednesday",
+    "delayProbability": 11.63,
+    "confidence": "High",
+    "source": "ML Model",
+    "message": "Low delay risk"
+  }
+}
+```
+
+### Test Case: Route with Historical Data  
 ```bash
 curl "http://localhost:3000/api/delay-prediction?origin=John%20F.%20Kennedy%20International&destination=Los%20Angeles%20International&dayOfWeek=1"
 ```
 
-## 🗄️ Database Schema
+The system intelligently chooses between ML predictions and historical data for optimal accuracy.
 
-### Flights Table
-- **271,940 records** from 2013 FAA data
-- Columns: origin/destination airports, delay information, day of week, carrier, etc.
-- Indexes: optimized for quick lookups by airport and day
+## 📁 Project Structure
 
-### Airports Table  
-- **70 unique airports** across the US
-- Columns: airport ID, name, city, state
-
-## 🎨 Frontend Features
-
-- **Real-time Search**: Airport suggestions as you type
-- **Day Selection**: Visual day-of-week picker
-- **Risk Visualization**: Color-coded results (green/yellow/red)
-- **Detailed Statistics**: Flight counts, confidence levels
-- **Responsive Design**: Works on desktop and mobile
-- **Error Handling**: User-friendly error messages
-
-## 🔧 Development
-
-### Backend Development
-```bash
-cd backend
-npm install
-npm run dev  # If you have nodemon installed
+```
+├── ml-model/                    # 🤖 Machine Learning Model
+│   ├── train_model.py          # Model training script
+│   ├── ml_api.py              # Flask API for ML predictions  
+│   └── saved_model/           # Trained model files
+├── backend/                   # 🔧 Backend API
+│   ├── server.js             # Express server with ML integration
+│   ├── database.js           # Database management
+│   └── README.md             # Backend documentation
+├── frontend/                 # ⚛️ React Frontend  
+│   ├── src/
+│   └── package.json
+├── clean-flights.csv         # 📊 Processed flight data
+├── start-all-services.sh     # 🚀 Complete system startup
+└── README.md                 # This file
 ```
 
-### Frontend Development
-```bash
-cd frontend
-npm install
-npm run dev
-```
+## 📊 Model Performance
 
-### Data Processing
-```bash
-# Clean the original flights.csv data
-python3 data_cleaner.py
-```
-
-## 🚀 Deployment
-
-### Backend
-- Can be deployed to any Node.js hosting service
-- SQLite database file is created automatically
-- Set PORT environment variable for custom port
-
-### Frontend
-- Build for production: `npm run build --prefix frontend`
-- Deploy the `dist/` folder to any static hosting service
-- Update API URLs for production environment
-
-## 📝 Environment Variables
-
-### Backend
-- `PORT`: Server port (default: 3000)
-- `NODE_ENV`: Environment (development/production)
-
-### Frontend
-- Vite proxy configured to forward `/api` calls to backend
-
-## 🔍 Troubleshooting
-
-### Backend Issues
-- **Port in use**: Change PORT in environment or kill existing process
-- **Database locked**: Restart the backend server
-- **CSV not found**: Ensure `clean-flights.csv` exists in project root
-
-### Frontend Issues
-- **API calls failing**: Ensure backend is running on port 3000
-- **Build fails**: Clear node_modules and reinstall dependencies
-
-### Data Issues
-- **Missing data**: Run `python3 data_cleaner.py` to regenerate clean data
-- **Database errors**: Delete `backend/flights.db` to force regeneration
-
-## 📊 Performance
-
-- **Initial Load**: 1-2 minutes (data import on first run)
-- **Query Response**: < 100ms average
-- **Database Size**: ~50MB SQLite file
-- **Memory Usage**: ~200MB for backend
-
-## 🛡️ Security
-
-- CORS enabled for cross-origin requests
-- Input validation on all API endpoints
-- SQL injection prevention with parameterized queries
-- Error handling without exposing internal details
-
-## 📄 License
-
-MIT License - see LICENSE file for details
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## 📞 Support
-
-For issues and questions:
-1. Check the troubleshooting section
-2. Review backend/frontend logs
-3. Open an issue on GitHub
-
----
-
-**🎉 Enjoy predicting flight delays!** ✈️
+- **Algorithm**: Gradient Boosting Classifier
+- **ROC-AUC Score**: 70.91%
+- **Training Data**: 271,940 flight records
+- **Features**: 20+ engineered features
+- **Airports**: 70 unique airports supported

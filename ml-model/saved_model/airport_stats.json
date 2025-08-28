@@ -1,0 +1,1266 @@
+{
+  "origin": {
+    "Albuquerque International Sunport": {
+      "origin_ArrDel15_count": 1827,
+      "origin_ArrDel15_mean": 0.187,
+      "origin_ArrDel15_std": 0.39,
+      "origin_DepDelay_mean": 8.423,
+      "origin_DepDelay_std": 28.35,
+      "origin_ArrDelay_mean": 4.921,
+      "origin_ArrDelay_std": 29.864
+    },
+    "Austin - Bergstrom International": {
+      "origin_ArrDel15_count": 2623,
+      "origin_ArrDel15_mean": 0.188,
+      "origin_ArrDel15_std": 0.391,
+      "origin_DepDelay_mean": 9.335,
+      "origin_DepDelay_std": 33.132,
+      "origin_ArrDelay_mean": 5.178,
+      "origin_ArrDelay_std": 35.089
+    },
+    "Baltimore/Washington International Thurgood Marshall": {
+      "origin_ArrDel15_count": 5219,
+      "origin_ArrDel15_mean": 0.258,
+      "origin_ArrDel15_std": 0.437,
+      "origin_DepDelay_mean": 13.185,
+      "origin_DepDelay_std": 37.755,
+      "origin_ArrDelay_mean": 9.042,
+      "origin_ArrDelay_std": 40.656
+    },
+    "Bob Hope": {
+      "origin_ArrDel15_count": 1447,
+      "origin_ArrDel15_mean": 0.156,
+      "origin_ArrDel15_std": 0.363,
+      "origin_DepDelay_mean": 6.338,
+      "origin_DepDelay_std": 26.134,
+      "origin_ArrDelay_mean": 2.728,
+      "origin_ArrDelay_std": 27.286
+    },
+    "Bradley International": {
+      "origin_ArrDel15_count": 1346,
+      "origin_ArrDel15_mean": 0.158,
+      "origin_ArrDel15_std": 0.365,
+      "origin_DepDelay_mean": 7.418,
+      "origin_DepDelay_std": 32.638,
+      "origin_ArrDelay_mean": 2.124,
+      "origin_ArrDelay_std": 36.749
+    },
+    "Buffalo Niagara International": {
+      "origin_ArrDel15_count": 1513,
+      "origin_ArrDel15_mean": 0.182,
+      "origin_ArrDel15_std": 0.386,
+      "origin_DepDelay_mean": 7.962,
+      "origin_DepDelay_std": 42.637,
+      "origin_ArrDelay_mean": 4.107,
+      "origin_ArrDelay_std": 41.307
+    },
+    "Charlotte Douglas International": {
+      "origin_ArrDel15_count": 7697,
+      "origin_ArrDel15_mean": 0.238,
+      "origin_ArrDel15_std": 0.426,
+      "origin_DepDelay_mean": 9.61,
+      "origin_DepDelay_std": 32.897,
+      "origin_ArrDelay_mean": 8.514,
+      "origin_ArrDelay_std": 35.777
+    },
+    "Chicago Midway International": {
+      "origin_ArrDel15_count": 4953,
+      "origin_ArrDel15_mean": 0.295,
+      "origin_ArrDel15_std": 0.456,
+      "origin_DepDelay_mean": 16.005,
+      "origin_DepDelay_std": 32.848,
+      "origin_ArrDelay_mean": 11.567,
+      "origin_ArrDelay_std": 35.344
+    },
+    "Chicago O'Hare International": {
+      "origin_ArrDel15_count": 12965,
+      "origin_ArrDel15_mean": 0.287,
+      "origin_ArrDel15_std": 0.452,
+      "origin_DepDelay_mean": 16.265,
+      "origin_DepDelay_std": 41.391,
+      "origin_ArrDelay_mean": 12.084,
+      "origin_ArrDelay_std": 44.561
+    },
+    "Cincinnati/Northern Kentucky International": {
+      "origin_ArrDel15_count": 2393,
+      "origin_ArrDel15_mean": 0.209,
+      "origin_ArrDel15_std": 0.406,
+      "origin_DepDelay_mean": 9.702,
+      "origin_DepDelay_std": 38.889,
+      "origin_ArrDelay_mean": 6.239,
+      "origin_ArrDelay_std": 41.196
+    },
+    "Cleveland-Hopkins International": {
+      "origin_ArrDel15_count": 2486,
+      "origin_ArrDel15_mean": 0.199,
+      "origin_ArrDel15_std": 0.399,
+      "origin_DepDelay_mean": 8.85,
+      "origin_DepDelay_std": 39.112,
+      "origin_ArrDelay_mean": 4.58,
+      "origin_ArrDelay_std": 41.914
+    },
+    "Dallas Love Field": {
+      "origin_ArrDel15_count": 1961,
+      "origin_ArrDel15_mean": 0.215,
+      "origin_ArrDel15_std": 0.411,
+      "origin_DepDelay_mean": 11.236,
+      "origin_DepDelay_std": 26.934,
+      "origin_ArrDelay_mean": 8.583,
+      "origin_ArrDelay_std": 28.279
+    },
+    "Dallas/Fort Worth International": {
+      "origin_ArrDel15_count": 10437,
+      "origin_ArrDel15_mean": 0.261,
+      "origin_ArrDel15_std": 0.439,
+      "origin_DepDelay_mean": 14.285,
+      "origin_DepDelay_std": 36.483,
+      "origin_ArrDelay_mean": 10.427,
+      "origin_ArrDelay_std": 38.685
+    },
+    "Denver International": {
+      "origin_ArrDel15_count": 9680,
+      "origin_ArrDel15_mean": 0.264,
+      "origin_ArrDel15_std": 0.441,
+      "origin_DepDelay_mean": 13.607,
+      "origin_DepDelay_std": 33.223,
+      "origin_ArrDelay_mean": 10.617,
+      "origin_ArrDelay_std": 35.978
+    },
+    "Detroit Metro Wayne County": {
+      "origin_ArrDel15_count": 6257,
+      "origin_ArrDel15_mean": 0.206,
+      "origin_ArrDel15_std": 0.405,
+      "origin_DepDelay_mean": 9.394,
+      "origin_DepDelay_std": 35.303,
+      "origin_ArrDelay_mean": 5.716,
+      "origin_ArrDelay_std": 38.344
+    },
+    "Eppley Airfield": {
+      "origin_ArrDel15_count": 1360,
+      "origin_ArrDel15_mean": 0.178,
+      "origin_ArrDel15_std": 0.383,
+      "origin_DepDelay_mean": 8.201,
+      "origin_DepDelay_std": 50.004,
+      "origin_ArrDelay_mean": 5.424,
+      "origin_ArrDelay_std": 51.027
+    },
+    "Fort Lauderdale-Hollywood International": {
+      "origin_ArrDel15_count": 3417,
+      "origin_ArrDel15_mean": 0.214,
+      "origin_ArrDel15_std": 0.41,
+      "origin_DepDelay_mean": 10.778,
+      "origin_DepDelay_std": 36.664,
+      "origin_ArrDelay_mean": 7.622,
+      "origin_ArrDelay_std": 39.284
+    },
+    "General Mitchell International": {
+      "origin_ArrDel15_count": 2099,
+      "origin_ArrDel15_mean": 0.204,
+      "origin_ArrDel15_std": 0.403,
+      "origin_DepDelay_mean": 8.853,
+      "origin_DepDelay_std": 34.3,
+      "origin_ArrDelay_mean": 5.322,
+      "origin_ArrDelay_std": 36.534
+    },
+    "George Bush Intercontinental/Houston": {
+      "origin_ArrDel15_count": 7538,
+      "origin_ArrDel15_mean": 0.203,
+      "origin_ArrDel15_std": 0.402,
+      "origin_DepDelay_mean": 10.433,
+      "origin_DepDelay_std": 31.274,
+      "origin_ArrDelay_mean": 4.287,
+      "origin_ArrDelay_std": 34.025
+    },
+    "Hartsfield-Jackson Atlanta International": {
+      "origin_ArrDel15_count": 15119,
+      "origin_ArrDel15_mean": 0.193,
+      "origin_ArrDel15_std": 0.395,
+      "origin_DepDelay_mean": 10.741,
+      "origin_DepDelay_std": 34.524,
+      "origin_ArrDelay_mean": 4.61,
+      "origin_ArrDelay_std": 37.595
+    },
+    "Honolulu International": {
+      "origin_ArrDel15_count": 1757,
+      "origin_ArrDel15_mean": 0.131,
+      "origin_ArrDel15_std": 0.337,
+      "origin_DepDelay_mean": 5.089,
+      "origin_DepDelay_std": 31.347,
+      "origin_ArrDelay_mean": 2.85,
+      "origin_ArrDelay_std": 32.519
+    },
+    "Indianapolis International": {
+      "origin_ArrDel15_count": 1809,
+      "origin_ArrDel15_mean": 0.184,
+      "origin_ArrDel15_std": 0.388,
+      "origin_DepDelay_mean": 7.464,
+      "origin_DepDelay_std": 37.722,
+      "origin_ArrDelay_mean": 3.971,
+      "origin_ArrDelay_std": 39.312
+    },
+    "Jacksonville International": {
+      "origin_ArrDel15_count": 1448,
+      "origin_ArrDel15_mean": 0.181,
+      "origin_ArrDel15_std": 0.385,
+      "origin_DepDelay_mean": 8.39,
+      "origin_DepDelay_std": 41.936,
+      "origin_ArrDelay_mean": 5.631,
+      "origin_ArrDelay_std": 45.158
+    },
+    "John F. Kennedy International": {
+      "origin_ArrDel15_count": 6091,
+      "origin_ArrDel15_mean": 0.262,
+      "origin_ArrDel15_std": 0.44,
+      "origin_DepDelay_mean": 13.847,
+      "origin_DepDelay_std": 40.742,
+      "origin_ArrDelay_mean": 6.894,
+      "origin_ArrDelay_std": 47.079
+    },
+    "John Wayne Airport-Orange County": {
+      "origin_ArrDel15_count": 2411,
+      "origin_ArrDel15_mean": 0.173,
+      "origin_ArrDel15_std": 0.379,
+      "origin_DepDelay_mean": 7.311,
+      "origin_DepDelay_std": 26.916,
+      "origin_ArrDelay_mean": 3.171,
+      "origin_ArrDelay_std": 28.758
+    },
+    "Kahului Airport": {
+      "origin_ArrDel15_count": 1154,
+      "origin_ArrDel15_mean": 0.124,
+      "origin_ArrDel15_std": 0.33,
+      "origin_DepDelay_mean": 2.289,
+      "origin_DepDelay_std": 30.109,
+      "origin_ArrDelay_mean": 2.551,
+      "origin_ArrDelay_std": 31.622
+    },
+    "Kansas City International": {
+      "origin_ArrDel15_count": 3076,
+      "origin_ArrDel15_mean": 0.2,
+      "origin_ArrDel15_std": 0.4,
+      "origin_DepDelay_mean": 9.131,
+      "origin_DepDelay_std": 33.585,
+      "origin_ArrDelay_mean": 5.703,
+      "origin_ArrDelay_std": 35.264
+    },
+    "LaGuardia": {
+      "origin_ArrDel15_count": 5922,
+      "origin_ArrDel15_mean": 0.266,
+      "origin_ArrDel15_std": 0.442,
+      "origin_DepDelay_mean": 11.802,
+      "origin_DepDelay_std": 42.348,
+      "origin_ArrDelay_mean": 7.608,
+      "origin_ArrDelay_std": 47.017
+    },
+    "Lambert-St. Louis International": {
+      "origin_ArrDel15_count": 3298,
+      "origin_ArrDel15_mean": 0.208,
+      "origin_ArrDel15_std": 0.406,
+      "origin_DepDelay_mean": 10.263,
+      "origin_DepDelay_std": 31.062,
+      "origin_ArrDelay_mean": 5.782,
+      "origin_ArrDelay_std": 32.942
+    },
+    "Logan International": {
+      "origin_ArrDel15_count": 6567,
+      "origin_ArrDel15_mean": 0.22,
+      "origin_ArrDel15_std": 0.414,
+      "origin_DepDelay_mean": 9.769,
+      "origin_DepDelay_std": 34.759,
+      "origin_ArrDelay_mean": 5.742,
+      "origin_ArrDelay_std": 37.854
+    },
+    "Long Beach Airport": {
+      "origin_ArrDel15_count": 837,
+      "origin_ArrDel15_mean": 0.128,
+      "origin_ArrDel15_std": 0.334,
+      "origin_DepDelay_mean": 4.317,
+      "origin_DepDelay_std": 30.969,
+      "origin_ArrDelay_mean": 2.231,
+      "origin_ArrDelay_std": 33.047
+    },
+    "Los Angeles International": {
+      "origin_ArrDel15_count": 11753,
+      "origin_ArrDel15_mean": 0.21,
+      "origin_ArrDel15_std": 0.407,
+      "origin_DepDelay_mean": 8.864,
+      "origin_DepDelay_std": 32.403,
+      "origin_ArrDelay_mean": 5.555,
+      "origin_ArrDelay_std": 34.543
+    },
+    "Louis Armstrong New Orleans International": {
+      "origin_ArrDel15_count": 2524,
+      "origin_ArrDel15_mean": 0.177,
+      "origin_ArrDel15_std": 0.382,
+      "origin_DepDelay_mean": 6.841,
+      "origin_DepDelay_std": 28.595,
+      "origin_ArrDelay_mean": 3.496,
+      "origin_ArrDelay_std": 30.867
+    },
+    "Louisville International-Standiford Field": {
+      "origin_ArrDel15_count": 1122,
+      "origin_ArrDel15_mean": 0.228,
+      "origin_ArrDel15_std": 0.42,
+      "origin_DepDelay_mean": 9.47,
+      "origin_DepDelay_std": 37.908,
+      "origin_ArrDelay_mean": 6.507,
+      "origin_ArrDelay_std": 40.527
+    },
+    "Luis Munoz Marin International": {
+      "origin_ArrDel15_count": 1396,
+      "origin_ArrDel15_mean": 0.236,
+      "origin_ArrDel15_std": 0.425,
+      "origin_DepDelay_mean": 10.158,
+      "origin_DepDelay_std": 36.457,
+      "origin_ArrDelay_mean": 8.562,
+      "origin_ArrDelay_std": 38.309
+    },
+    "McCarran International": {
+      "origin_ArrDel15_count": 7876,
+      "origin_ArrDel15_mean": 0.229,
+      "origin_ArrDel15_std": 0.42,
+      "origin_DepDelay_mean": 11.489,
+      "origin_DepDelay_std": 35.473,
+      "origin_ArrDelay_mean": 7.703,
+      "origin_ArrDelay_std": 37.543
+    },
+    "Memphis International": {
+      "origin_ArrDel15_count": 1814,
+      "origin_ArrDel15_mean": 0.205,
+      "origin_ArrDel15_std": 0.404,
+      "origin_DepDelay_mean": 9.431,
+      "origin_DepDelay_std": 43.383,
+      "origin_ArrDelay_mean": 5.903,
+      "origin_ArrDelay_std": 44.893
+    },
+    "Metropolitan Oakland International": {
+      "origin_ArrDel15_count": 2585,
+      "origin_ArrDel15_mean": 0.204,
+      "origin_ArrDel15_std": 0.403,
+      "origin_DepDelay_mean": 8.997,
+      "origin_DepDelay_std": 24.324,
+      "origin_ArrDelay_mean": 5.422,
+      "origin_ArrDelay_std": 25.106
+    },
+    "Miami International": {
+      "origin_ArrDel15_count": 4192,
+      "origin_ArrDel15_mean": 0.216,
+      "origin_ArrDel15_std": 0.412,
+      "origin_DepDelay_mean": 10.144,
+      "origin_DepDelay_std": 37.993,
+      "origin_ArrDelay_mean": 6.992,
+      "origin_ArrDelay_std": 40.006
+    },
+    "Minneapolis-St Paul International": {
+      "origin_ArrDel15_count": 6033,
+      "origin_ArrDel15_mean": 0.183,
+      "origin_ArrDel15_std": 0.387,
+      "origin_DepDelay_mean": 7.855,
+      "origin_DepDelay_std": 33.005,
+      "origin_ArrDelay_mean": 3.766,
+      "origin_ArrDelay_std": 35.251
+    },
+    "Nashville International": {
+      "origin_ArrDel15_count": 3499,
+      "origin_ArrDel15_mean": 0.215,
+      "origin_ArrDel15_std": 0.411,
+      "origin_DepDelay_mean": 10.501,
+      "origin_DepDelay_std": 39.044,
+      "origin_ArrDelay_mean": 6.88,
+      "origin_ArrDelay_std": 40.545
+    },
+    "Newark Liberty International": {
+      "origin_ArrDel15_count": 6377,
+      "origin_ArrDel15_mean": 0.255,
+      "origin_ArrDel15_std": 0.436,
+      "origin_DepDelay_mean": 13.954,
+      "origin_DepDelay_std": 39.991,
+      "origin_ArrDelay_mean": 6.895,
+      "origin_ArrDelay_std": 45.003
+    },
+    "Norfolk International": {
+      "origin_ArrDel15_count": 1083,
+      "origin_ArrDel15_mean": 0.2,
+      "origin_ArrDel15_std": 0.4,
+      "origin_DepDelay_mean": 10.674,
+      "origin_DepDelay_std": 48.083,
+      "origin_ArrDelay_mean": 6.559,
+      "origin_ArrDelay_std": 50.037
+    },
+    "Norman Y. Mineta San Jose International": {
+      "origin_ArrDel15_count": 2514,
+      "origin_ArrDel15_mean": 0.167,
+      "origin_ArrDel15_std": 0.373,
+      "origin_DepDelay_mean": 7.313,
+      "origin_DepDelay_std": 29.559,
+      "origin_ArrDelay_mean": 5.163,
+      "origin_ArrDelay_std": 30.556
+    },
+    "Ontario International": {
+      "origin_ArrDel15_count": 1315,
+      "origin_ArrDel15_mean": 0.163,
+      "origin_ArrDel15_std": 0.369,
+      "origin_DepDelay_mean": 6.858,
+      "origin_DepDelay_std": 28.681,
+      "origin_ArrDelay_mean": 3.632,
+      "origin_ArrDelay_std": 29.508
+    },
+    "Orlando International": {
+      "origin_ArrDel15_count": 6034,
+      "origin_ArrDel15_mean": 0.205,
+      "origin_ArrDel15_std": 0.403,
+      "origin_DepDelay_mean": 10.487,
+      "origin_DepDelay_std": 35.031,
+      "origin_ArrDelay_mean": 6.57,
+      "origin_ArrDelay_std": 37.332
+    },
+    "Palm Beach International": {
+      "origin_ArrDel15_count": 1028,
+      "origin_ArrDel15_mean": 0.226,
+      "origin_ArrDel15_std": 0.418,
+      "origin_DepDelay_mean": 12.001,
+      "origin_DepDelay_std": 43.397,
+      "origin_ArrDelay_mean": 9.307,
+      "origin_ArrDelay_std": 46.052
+    },
+    "Philadelphia International": {
+      "origin_ArrDel15_count": 4845,
+      "origin_ArrDel15_mean": 0.237,
+      "origin_ArrDel15_std": 0.425,
+      "origin_DepDelay_mean": 10.498,
+      "origin_DepDelay_std": 39.445,
+      "origin_ArrDelay_mean": 6.677,
+      "origin_ArrDelay_std": 44.435
+    },
+    "Phoenix Sky Harbor International": {
+      "origin_ArrDel15_count": 9068,
+      "origin_ArrDel15_mean": 0.198,
+      "origin_ArrDel15_std": 0.398,
+      "origin_DepDelay_mean": 7.753,
+      "origin_DepDelay_std": 26.741,
+      "origin_ArrDelay_mean": 5.148,
+      "origin_ArrDelay_std": 28.357
+    },
+    "Pittsburgh International": {
+      "origin_ArrDel15_count": 2085,
+      "origin_ArrDel15_mean": 0.186,
+      "origin_ArrDel15_std": 0.389,
+      "origin_DepDelay_mean": 7.311,
+      "origin_DepDelay_std": 37.63,
+      "origin_ArrDelay_mean": 3.899,
+      "origin_ArrDelay_std": 40.669
+    },
+    "Port Columbus International": {
+      "origin_ArrDel15_count": 1687,
+      "origin_ArrDel15_mean": 0.208,
+      "origin_ArrDel15_std": 0.406,
+      "origin_DepDelay_mean": 9.683,
+      "origin_DepDelay_std": 41.773,
+      "origin_ArrDelay_mean": 6.753,
+      "origin_ArrDelay_std": 44.194
+    },
+    "Portland International": {
+      "origin_ArrDel15_count": 3056,
+      "origin_ArrDel15_mean": 0.144,
+      "origin_ArrDel15_std": 0.351,
+      "origin_DepDelay_mean": 5.505,
+      "origin_DepDelay_std": 28.567,
+      "origin_ArrDelay_mean": 2.454,
+      "origin_ArrDelay_std": 30.918
+    },
+    "Raleigh-Durham International": {
+      "origin_ArrDel15_count": 2749,
+      "origin_ArrDel15_mean": 0.199,
+      "origin_ArrDel15_std": 0.399,
+      "origin_DepDelay_mean": 8.431,
+      "origin_DepDelay_std": 43.199,
+      "origin_ArrDelay_mean": 5.195,
+      "origin_ArrDelay_std": 46.906
+    },
+    "Reno/Tahoe International": {
+      "origin_ArrDel15_count": 1102,
+      "origin_ArrDel15_mean": 0.178,
+      "origin_ArrDel15_std": 0.383,
+      "origin_DepDelay_mean": 9.174,
+      "origin_DepDelay_std": 38.169,
+      "origin_ArrDelay_mean": 5.683,
+      "origin_ArrDelay_std": 38.453
+    },
+    "Richmond International": {
+      "origin_ArrDel15_count": 1176,
+      "origin_ArrDel15_mean": 0.2,
+      "origin_ArrDel15_std": 0.4,
+      "origin_DepDelay_mean": 8.919,
+      "origin_DepDelay_std": 42.234,
+      "origin_ArrDelay_mean": 5.495,
+      "origin_ArrDelay_std": 45.133
+    },
+    "Ronald Reagan Washington National": {
+      "origin_ArrDel15_count": 4315,
+      "origin_ArrDel15_mean": 0.207,
+      "origin_ArrDel15_std": 0.405,
+      "origin_DepDelay_mean": 8.465,
+      "origin_DepDelay_std": 43.097,
+      "origin_ArrDelay_mean": 5.978,
+      "origin_ArrDelay_std": 46.904
+    },
+    "Sacramento International": {
+      "origin_ArrDel15_count": 2501,
+      "origin_ArrDel15_mean": 0.159,
+      "origin_ArrDel15_std": 0.366,
+      "origin_DepDelay_mean": 6.489,
+      "origin_DepDelay_std": 24.417,
+      "origin_ArrDelay_mean": 3.432,
+      "origin_ArrDelay_std": 25.774
+    },
+    "Salt Lake City International": {
+      "origin_ArrDel15_count": 4684,
+      "origin_ArrDel15_mean": 0.141,
+      "origin_ArrDel15_std": 0.348,
+      "origin_DepDelay_mean": 4.968,
+      "origin_DepDelay_std": 27.143,
+      "origin_ArrDelay_mean": 1.565,
+      "origin_ArrDelay_std": 28.763
+    },
+    "San Antonio International": {
+      "origin_ArrDel15_count": 2300,
+      "origin_ArrDel15_mean": 0.183,
+      "origin_ArrDel15_std": 0.386,
+      "origin_DepDelay_mean": 7.966,
+      "origin_DepDelay_std": 31.453,
+      "origin_ArrDelay_mean": 4.337,
+      "origin_ArrDelay_std": 33.875
+    },
+    "San Diego International": {
+      "origin_ArrDel15_count": 4536,
+      "origin_ArrDel15_mean": 0.2,
+      "origin_ArrDel15_std": 0.4,
+      "origin_DepDelay_mean": 8.911,
+      "origin_DepDelay_std": 36.797,
+      "origin_ArrDelay_mean": 5.72,
+      "origin_ArrDelay_std": 38.226
+    },
+    "San Francisco International": {
+      "origin_ArrDel15_count": 8453,
+      "origin_ArrDel15_mean": 0.249,
+      "origin_ArrDel15_std": 0.432,
+      "origin_DepDelay_mean": 13.651,
+      "origin_DepDelay_std": 41.563,
+      "origin_ArrDelay_mean": 8.854,
+      "origin_ArrDelay_std": 42.385
+    },
+    "Seattle/Tacoma International": {
+      "origin_ArrDel15_count": 6024,
+      "origin_ArrDel15_mean": 0.175,
+      "origin_ArrDel15_std": 0.38,
+      "origin_DepDelay_mean": 6.782,
+      "origin_DepDelay_std": 34.081,
+      "origin_ArrDelay_mean": 4.495,
+      "origin_ArrDelay_std": 35.596
+    },
+    "Southwest Florida International": {
+      "origin_ArrDel15_count": 1240,
+      "origin_ArrDel15_mean": 0.161,
+      "origin_ArrDel15_std": 0.368,
+      "origin_DepDelay_mean": 7.553,
+      "origin_DepDelay_std": 37.512,
+      "origin_ArrDelay_mean": 4.304,
+      "origin_ArrDelay_std": 39.719
+    },
+    "Tampa International": {
+      "origin_ArrDel15_count": 3459,
+      "origin_ArrDel15_mean": 0.185,
+      "origin_ArrDel15_std": 0.389,
+      "origin_DepDelay_mean": 8.446,
+      "origin_DepDelay_std": 32.151,
+      "origin_ArrDelay_mean": 4.952,
+      "origin_ArrDelay_std": 34.087
+    },
+    "Ted Stevens Anchorage International": {
+      "origin_ArrDel15_count": 751,
+      "origin_ArrDel15_mean": 0.116,
+      "origin_ArrDel15_std": 0.32,
+      "origin_DepDelay_mean": 2.213,
+      "origin_DepDelay_std": 32.306,
+      "origin_ArrDelay_mean": -2.453,
+      "origin_ArrDelay_std": 33.818
+    },
+    "Theodore Francis Green State": {
+      "origin_ArrDel15_count": 956,
+      "origin_ArrDel15_mean": 0.173,
+      "origin_ArrDel15_std": 0.378,
+      "origin_DepDelay_mean": 7.434,
+      "origin_DepDelay_std": 31.727,
+      "origin_ArrDelay_mean": 3.336,
+      "origin_ArrDelay_std": 35.533
+    },
+    "Tucson International": {
+      "origin_ArrDel15_count": 1111,
+      "origin_ArrDel15_mean": 0.132,
+      "origin_ArrDel15_std": 0.339,
+      "origin_DepDelay_mean": 4.652,
+      "origin_DepDelay_std": 32.72,
+      "origin_ArrDelay_mean": 1.957,
+      "origin_ArrDelay_std": 33.964
+    },
+    "Washington Dulles International": {
+      "origin_ArrDel15_count": 3665,
+      "origin_ArrDel15_mean": 0.24,
+      "origin_ArrDel15_std": 0.427,
+      "origin_DepDelay_mean": 11.867,
+      "origin_DepDelay_std": 38.719,
+      "origin_ArrDelay_mean": 7.283,
+      "origin_ArrDelay_std": 42.533
+    },
+    "Will Rogers World": {
+      "origin_ArrDel15_count": 1390,
+      "origin_ArrDel15_mean": 0.188,
+      "origin_ArrDel15_std": 0.391,
+      "origin_DepDelay_mean": 8.872,
+      "origin_DepDelay_std": 37.072,
+      "origin_ArrDelay_mean": 6.129,
+      "origin_ArrDelay_std": 39.103
+    },
+    "William P Hobby": {
+      "origin_ArrDel15_count": 2935,
+      "origin_ArrDel15_mean": 0.254,
+      "origin_ArrDel15_std": 0.435,
+      "origin_DepDelay_mean": 12.758,
+      "origin_DepDelay_std": 28.452,
+      "origin_ArrDelay_mean": 9.012,
+      "origin_ArrDelay_std": 30.504
+    }
+  },
+  "dest": {
+    "Albuquerque International Sunport": {
+      "dest_ArrDel15_count": 1796,
+      "dest_ArrDel15_mean": 0.232,
+      "dest_ArrDel15_std": 0.422,
+      "dest_DepDelay_mean": 11.881,
+      "dest_DepDelay_std": 29.833,
+      "dest_ArrDelay_mean": 8.737,
+      "dest_ArrDelay_std": 30.706
+    },
+    "Austin - Bergstrom International": {
+      "dest_ArrDel15_count": 2773,
+      "dest_ArrDel15_mean": 0.244,
+      "dest_ArrDel15_std": 0.43,
+      "dest_DepDelay_mean": 12.699,
+      "dest_DepDelay_std": 33.11,
+      "dest_ArrDelay_mean": 9.426,
+      "dest_ArrDelay_std": 35.434
+    },
+    "Baltimore/Washington International Thurgood Marshall": {
+      "dest_ArrDel15_count": 5185,
+      "dest_ArrDel15_mean": 0.201,
+      "dest_ArrDel15_std": 0.401,
+      "dest_DepDelay_mean": 10.568,
+      "dest_DepDelay_std": 32.552,
+      "dest_ArrDelay_mean": 5.906,
+      "dest_ArrDelay_std": 35.688
+    },
+    "Bob Hope": {
+      "dest_ArrDel15_count": 1499,
+      "dest_ArrDel15_mean": 0.171,
+      "dest_ArrDel15_std": 0.376,
+      "dest_DepDelay_mean": 7.073,
+      "dest_DepDelay_std": 22.416,
+      "dest_ArrDelay_mean": 3.726,
+      "dest_ArrDelay_std": 23.733
+    },
+    "Bradley International": {
+      "dest_ArrDel15_count": 1384,
+      "dest_ArrDel15_mean": 0.26,
+      "dest_ArrDel15_std": 0.439,
+      "dest_DepDelay_mean": 11.801,
+      "dest_DepDelay_std": 30.028,
+      "dest_ArrDelay_mean": 7.956,
+      "dest_ArrDelay_std": 32.193
+    },
+    "Buffalo Niagara International": {
+      "dest_ArrDel15_count": 1524,
+      "dest_ArrDel15_mean": 0.246,
+      "dest_ArrDel15_std": 0.431,
+      "dest_DepDelay_mean": 12.449,
+      "dest_DepDelay_std": 34.808,
+      "dest_ArrDelay_mean": 8.291,
+      "dest_ArrDelay_std": 36.75
+    },
+    "Charlotte Douglas International": {
+      "dest_ArrDel15_count": 7779,
+      "dest_ArrDel15_mean": 0.194,
+      "dest_ArrDel15_std": 0.395,
+      "dest_DepDelay_mean": 6.272,
+      "dest_DepDelay_std": 30.503,
+      "dest_ArrDelay_mean": 5.359,
+      "dest_ArrDelay_std": 33.613
+    },
+    "Chicago Midway International": {
+      "dest_ArrDel15_count": 4943,
+      "dest_ArrDel15_mean": 0.218,
+      "dest_ArrDel15_std": 0.413,
+      "dest_DepDelay_mean": 10.629,
+      "dest_DepDelay_std": 28.458,
+      "dest_ArrDelay_mean": 7.065,
+      "dest_ArrDelay_std": 31.295
+    },
+    "Chicago O'Hare International": {
+      "dest_ArrDel15_count": 12930,
+      "dest_ArrDel15_mean": 0.256,
+      "dest_ArrDel15_std": 0.437,
+      "dest_DepDelay_mean": 13.922,
+      "dest_DepDelay_std": 48.364,
+      "dest_ArrDelay_mean": 9.517,
+      "dest_ArrDelay_std": 51.966
+    },
+    "Cincinnati/Northern Kentucky International": {
+      "dest_ArrDel15_count": 2410,
+      "dest_ArrDel15_mean": 0.195,
+      "dest_ArrDel15_std": 0.396,
+      "dest_DepDelay_mean": 8.584,
+      "dest_DepDelay_std": 35.43,
+      "dest_ArrDelay_mean": 3.932,
+      "dest_ArrDelay_std": 37.179
+    },
+    "Cleveland-Hopkins International": {
+      "dest_ArrDel15_count": 2476,
+      "dest_ArrDel15_mean": 0.215,
+      "dest_ArrDel15_std": 0.411,
+      "dest_DepDelay_mean": 11.626,
+      "dest_DepDelay_std": 38.519,
+      "dest_ArrDelay_mean": 7.063,
+      "dest_ArrDelay_std": 40.678
+    },
+    "Dallas Love Field": {
+      "dest_ArrDel15_count": 1935,
+      "dest_ArrDel15_mean": 0.234,
+      "dest_ArrDel15_std": 0.423,
+      "dest_DepDelay_mean": 11.667,
+      "dest_DepDelay_std": 30.778,
+      "dest_ArrDelay_mean": 9.186,
+      "dest_ArrDelay_std": 33.062
+    },
+    "Dallas/Fort Worth International": {
+      "dest_ArrDel15_count": 10376,
+      "dest_ArrDel15_mean": 0.2,
+      "dest_ArrDel15_std": 0.4,
+      "dest_DepDelay_mean": 9.552,
+      "dest_DepDelay_std": 46.359,
+      "dest_ArrDelay_mean": 5.384,
+      "dest_ArrDelay_std": 48.343
+    },
+    "Denver International": {
+      "dest_ArrDel15_count": 9941,
+      "dest_ArrDel15_mean": 0.228,
+      "dest_ArrDel15_std": 0.42,
+      "dest_DepDelay_mean": 11.31,
+      "dest_DepDelay_std": 35.24,
+      "dest_ArrDelay_mean": 7.876,
+      "dest_ArrDelay_std": 37.778
+    },
+    "Detroit Metro Wayne County": {
+      "dest_ArrDel15_count": 6359,
+      "dest_ArrDel15_mean": 0.188,
+      "dest_ArrDel15_std": 0.391,
+      "dest_DepDelay_mean": 9.058,
+      "dest_DepDelay_std": 38.228,
+      "dest_ArrDelay_mean": 4.39,
+      "dest_ArrDelay_std": 40.65
+    },
+    "Eppley Airfield": {
+      "dest_ArrDel15_count": 1333,
+      "dest_ArrDel15_mean": 0.245,
+      "dest_ArrDel15_std": 0.43,
+      "dest_DepDelay_mean": 11.02,
+      "dest_DepDelay_std": 30.689,
+      "dest_ArrDelay_mean": 8.106,
+      "dest_ArrDelay_std": 31.972
+    },
+    "Fort Lauderdale-Hollywood International": {
+      "dest_ArrDel15_count": 3441,
+      "dest_ArrDel15_mean": 0.227,
+      "dest_ArrDel15_std": 0.419,
+      "dest_DepDelay_mean": 10.621,
+      "dest_DepDelay_std": 34.463,
+      "dest_ArrDelay_mean": 6.601,
+      "dest_ArrDelay_std": 37.727
+    },
+    "General Mitchell International": {
+      "dest_ArrDel15_count": 2070,
+      "dest_ArrDel15_mean": 0.222,
+      "dest_ArrDel15_std": 0.416,
+      "dest_DepDelay_mean": 11.175,
+      "dest_DepDelay_std": 34.93,
+      "dest_ArrDelay_mean": 7.619,
+      "dest_ArrDelay_std": 37.11
+    },
+    "George Bush Intercontinental/Houston": {
+      "dest_ArrDel15_count": 7422,
+      "dest_ArrDel15_mean": 0.2,
+      "dest_ArrDel15_std": 0.4,
+      "dest_DepDelay_mean": 8.704,
+      "dest_DepDelay_std": 33.488,
+      "dest_ArrDelay_mean": 4.123,
+      "dest_ArrDelay_std": 36.405
+    },
+    "Hartsfield-Jackson Atlanta International": {
+      "dest_ArrDel15_count": 15014,
+      "dest_ArrDel15_mean": 0.195,
+      "dest_ArrDel15_std": 0.396,
+      "dest_DepDelay_mean": 8.295,
+      "dest_DepDelay_std": 35.682,
+      "dest_ArrDelay_mean": 6.758,
+      "dest_ArrDelay_std": 38.334
+    },
+    "Honolulu International": {
+      "dest_ArrDel15_count": 1729,
+      "dest_ArrDel15_mean": 0.145,
+      "dest_ArrDel15_std": 0.352,
+      "dest_DepDelay_mean": 6.167,
+      "dest_DepDelay_std": 48.656,
+      "dest_ArrDelay_mean": 4.445,
+      "dest_ArrDelay_std": 49.704
+    },
+    "Indianapolis International": {
+      "dest_ArrDel15_count": 1806,
+      "dest_ArrDel15_mean": 0.21,
+      "dest_ArrDel15_std": 0.408,
+      "dest_DepDelay_mean": 8.581,
+      "dest_DepDelay_std": 25.092,
+      "dest_ArrDelay_mean": 4.952,
+      "dest_ArrDelay_std": 27.758
+    },
+    "Jacksonville International": {
+      "dest_ArrDel15_count": 1430,
+      "dest_ArrDel15_mean": 0.227,
+      "dest_ArrDel15_std": 0.419,
+      "dest_DepDelay_mean": 12.027,
+      "dest_DepDelay_std": 37.421,
+      "dest_ArrDelay_mean": 8.31,
+      "dest_ArrDelay_std": 38.931
+    },
+    "John F. Kennedy International": {
+      "dest_ArrDel15_count": 5844,
+      "dest_ArrDel15_mean": 0.269,
+      "dest_ArrDel15_std": 0.444,
+      "dest_DepDelay_mean": 13.111,
+      "dest_DepDelay_std": 43.306,
+      "dest_ArrDelay_mean": 10.48,
+      "dest_ArrDelay_std": 46.644
+    },
+    "John Wayne Airport-Orange County": {
+      "dest_ArrDel15_count": 2275,
+      "dest_ArrDel15_mean": 0.174,
+      "dest_ArrDel15_std": 0.379,
+      "dest_DepDelay_mean": 7.421,
+      "dest_DepDelay_std": 21.874,
+      "dest_ArrDelay_mean": 2.441,
+      "dest_ArrDelay_std": 24.169
+    },
+    "Kahului Airport": {
+      "dest_ArrDel15_count": 1218,
+      "dest_ArrDel15_mean": 0.131,
+      "dest_ArrDel15_std": 0.338,
+      "dest_DepDelay_mean": 5.087,
+      "dest_DepDelay_std": 35.222,
+      "dest_ArrDelay_mean": 4.768,
+      "dest_ArrDelay_std": 35.683
+    },
+    "Kansas City International": {
+      "dest_ArrDel15_count": 3063,
+      "dest_ArrDel15_mean": 0.225,
+      "dest_ArrDel15_std": 0.418,
+      "dest_DepDelay_mean": 11.682,
+      "dest_DepDelay_std": 31.228,
+      "dest_ArrDelay_mean": 7.762,
+      "dest_ArrDelay_std": 33.541
+    },
+    "LaGuardia": {
+      "dest_ArrDel15_count": 5859,
+      "dest_ArrDel15_mean": 0.288,
+      "dest_ArrDel15_std": 0.453,
+      "dest_DepDelay_mean": 15.132,
+      "dest_DepDelay_std": 42.065,
+      "dest_ArrDelay_mean": 11.245,
+      "dest_ArrDelay_std": 46.77
+    },
+    "Lambert-St. Louis International": {
+      "dest_ArrDel15_count": 3261,
+      "dest_ArrDel15_mean": 0.209,
+      "dest_ArrDel15_std": 0.407,
+      "dest_DepDelay_mean": 11.04,
+      "dest_DepDelay_std": 34.272,
+      "dest_ArrDelay_mean": 6.536,
+      "dest_ArrDelay_std": 35.598
+    },
+    "Logan International": {
+      "dest_ArrDel15_count": 6778,
+      "dest_ArrDel15_mean": 0.231,
+      "dest_ArrDel15_std": 0.422,
+      "dest_DepDelay_mean": 11.111,
+      "dest_DepDelay_std": 36.265,
+      "dest_ArrDelay_mean": 6.721,
+      "dest_ArrDelay_std": 39.236
+    },
+    "Long Beach Airport": {
+      "dest_ArrDel15_count": 833,
+      "dest_ArrDel15_mean": 0.12,
+      "dest_ArrDel15_std": 0.325,
+      "dest_DepDelay_mean": 3.947,
+      "dest_DepDelay_std": 25.459,
+      "dest_ArrDelay_mean": 0.577,
+      "dest_ArrDelay_std": 26.905
+    },
+    "Los Angeles International": {
+      "dest_ArrDel15_count": 11970,
+      "dest_ArrDel15_mean": 0.214,
+      "dest_ArrDel15_std": 0.41,
+      "dest_DepDelay_mean": 9.65,
+      "dest_DepDelay_std": 32.778,
+      "dest_ArrDelay_mean": 5.275,
+      "dest_ArrDelay_std": 35.474
+    },
+    "Louis Armstrong New Orleans International": {
+      "dest_ArrDel15_count": 2517,
+      "dest_ArrDel15_mean": 0.197,
+      "dest_ArrDel15_std": 0.398,
+      "dest_DepDelay_mean": 10.137,
+      "dest_DepDelay_std": 28.727,
+      "dest_ArrDelay_mean": 5.102,
+      "dest_ArrDelay_std": 30.755
+    },
+    "Louisville International-Standiford Field": {
+      "dest_ArrDel15_count": 1062,
+      "dest_ArrDel15_mean": 0.25,
+      "dest_ArrDel15_std": 0.433,
+      "dest_DepDelay_mean": 13.089,
+      "dest_DepDelay_std": 35.408,
+      "dest_ArrDelay_mean": 9.241,
+      "dest_ArrDelay_std": 36.814
+    },
+    "Luis Munoz Marin International": {
+      "dest_ArrDel15_count": 1416,
+      "dest_ArrDel15_mean": 0.233,
+      "dest_ArrDel15_std": 0.423,
+      "dest_DepDelay_mean": 10.626,
+      "dest_DepDelay_std": 30.321,
+      "dest_ArrDelay_mean": 6.755,
+      "dest_ArrDelay_std": 33.893
+    },
+    "McCarran International": {
+      "dest_ArrDel15_count": 7859,
+      "dest_ArrDel15_mean": 0.194,
+      "dest_ArrDel15_std": 0.395,
+      "dest_DepDelay_mean": 9.694,
+      "dest_DepDelay_std": 28.735,
+      "dest_ArrDelay_mean": 4.49,
+      "dest_ArrDelay_std": 31.2
+    },
+    "Memphis International": {
+      "dest_ArrDel15_count": 1796,
+      "dest_ArrDel15_mean": 0.183,
+      "dest_ArrDel15_std": 0.387,
+      "dest_DepDelay_mean": 7.683,
+      "dest_DepDelay_std": 31.921,
+      "dest_ArrDelay_mean": 3.919,
+      "dest_ArrDelay_std": 34.011
+    },
+    "Metropolitan Oakland International": {
+      "dest_ArrDel15_count": 2465,
+      "dest_ArrDel15_mean": 0.217,
+      "dest_ArrDel15_std": 0.412,
+      "dest_DepDelay_mean": 10.812,
+      "dest_DepDelay_std": 26.144,
+      "dest_ArrDelay_mean": 5.732,
+      "dest_ArrDelay_std": 27.589
+    },
+    "Miami International": {
+      "dest_ArrDel15_count": 4209,
+      "dest_ArrDel15_mean": 0.19,
+      "dest_ArrDel15_std": 0.392,
+      "dest_DepDelay_mean": 8.823,
+      "dest_DepDelay_std": 44.786,
+      "dest_ArrDelay_mean": 2.774,
+      "dest_ArrDelay_std": 47.12
+    },
+    "Minneapolis-St Paul International": {
+      "dest_ArrDel15_count": 6107,
+      "dest_ArrDel15_mean": 0.174,
+      "dest_ArrDel15_std": 0.379,
+      "dest_DepDelay_mean": 8.49,
+      "dest_DepDelay_std": 37.032,
+      "dest_ArrDelay_mean": 3.264,
+      "dest_ArrDelay_std": 38.609
+    },
+    "Nashville International": {
+      "dest_ArrDel15_count": 3454,
+      "dest_ArrDel15_mean": 0.212,
+      "dest_ArrDel15_std": 0.409,
+      "dest_DepDelay_mean": 10.461,
+      "dest_DepDelay_std": 30.684,
+      "dest_ArrDelay_mean": 6.56,
+      "dest_ArrDelay_std": 32.929
+    },
+    "Newark Liberty International": {
+      "dest_ArrDel15_count": 6412,
+      "dest_ArrDel15_mean": 0.295,
+      "dest_ArrDel15_std": 0.456,
+      "dest_DepDelay_mean": 16.977,
+      "dest_DepDelay_std": 43.653,
+      "dest_ArrDelay_mean": 11.43,
+      "dest_ArrDelay_std": 47.183
+    },
+    "Norfolk International": {
+      "dest_ArrDel15_count": 1038,
+      "dest_ArrDel15_mean": 0.239,
+      "dest_ArrDel15_std": 0.427,
+      "dest_DepDelay_mean": 12.216,
+      "dest_DepDelay_std": 34.84,
+      "dest_ArrDelay_mean": 8.263,
+      "dest_ArrDelay_std": 37.208
+    },
+    "Norman Y. Mineta San Jose International": {
+      "dest_ArrDel15_count": 2444,
+      "dest_ArrDel15_mean": 0.187,
+      "dest_ArrDel15_std": 0.39,
+      "dest_DepDelay_mean": 8.05,
+      "dest_DepDelay_std": 23.814,
+      "dest_ArrDelay_mean": 4.076,
+      "dest_ArrDelay_std": 25.234
+    },
+    "Ontario International": {
+      "dest_ArrDel15_count": 1253,
+      "dest_ArrDel15_mean": 0.22,
+      "dest_ArrDel15_std": 0.415,
+      "dest_DepDelay_mean": 9.939,
+      "dest_DepDelay_std": 27.79,
+      "dest_ArrDelay_mean": 6.833,
+      "dest_ArrDelay_std": 28.359
+    },
+    "Orlando International": {
+      "dest_ArrDel15_count": 5963,
+      "dest_ArrDel15_mean": 0.198,
+      "dest_ArrDel15_std": 0.399,
+      "dest_DepDelay_mean": 9.749,
+      "dest_DepDelay_std": 35.055,
+      "dest_ArrDelay_mean": 5.516,
+      "dest_ArrDelay_std": 37.835
+    },
+    "Palm Beach International": {
+      "dest_ArrDel15_count": 1023,
+      "dest_ArrDel15_mean": 0.229,
+      "dest_ArrDel15_std": 0.42,
+      "dest_DepDelay_mean": 11.828,
+      "dest_DepDelay_std": 36.829,
+      "dest_ArrDelay_mean": 7.888,
+      "dest_ArrDelay_std": 40.355
+    },
+    "Philadelphia International": {
+      "dest_ArrDel15_count": 4558,
+      "dest_ArrDel15_mean": 0.256,
+      "dest_ArrDel15_std": 0.436,
+      "dest_DepDelay_mean": 10.223,
+      "dest_DepDelay_std": 35.455,
+      "dest_ArrDelay_mean": 8.781,
+      "dest_ArrDelay_std": 38.868
+    },
+    "Phoenix Sky Harbor International": {
+      "dest_ArrDel15_count": 9179,
+      "dest_ArrDel15_mean": 0.18,
+      "dest_ArrDel15_std": 0.384,
+      "dest_DepDelay_mean": 6.932,
+      "dest_DepDelay_std": 27.68,
+      "dest_ArrDelay_mean": 3.189,
+      "dest_ArrDelay_std": 29.423
+    },
+    "Pittsburgh International": {
+      "dest_ArrDel15_count": 2041,
+      "dest_ArrDel15_mean": 0.225,
+      "dest_ArrDel15_std": 0.418,
+      "dest_DepDelay_mean": 11.589,
+      "dest_DepDelay_std": 38.566,
+      "dest_ArrDelay_mean": 8.169,
+      "dest_ArrDelay_std": 40.755
+    },
+    "Port Columbus International": {
+      "dest_ArrDel15_count": 1682,
+      "dest_ArrDel15_mean": 0.244,
+      "dest_ArrDel15_std": 0.429,
+      "dest_DepDelay_mean": 12.132,
+      "dest_DepDelay_std": 36.082,
+      "dest_ArrDelay_mean": 9.438,
+      "dest_ArrDelay_std": 38.771
+    },
+    "Portland International": {
+      "dest_ArrDel15_count": 2970,
+      "dest_ArrDel15_mean": 0.191,
+      "dest_ArrDel15_std": 0.393,
+      "dest_DepDelay_mean": 8.11,
+      "dest_DepDelay_std": 28.362,
+      "dest_ArrDelay_mean": 4.067,
+      "dest_ArrDelay_std": 29.871
+    },
+    "Raleigh-Durham International": {
+      "dest_ArrDel15_count": 2809,
+      "dest_ArrDel15_mean": 0.215,
+      "dest_ArrDel15_std": 0.411,
+      "dest_DepDelay_mean": 9.365,
+      "dest_DepDelay_std": 30.568,
+      "dest_ArrDelay_mean": 5.762,
+      "dest_ArrDelay_std": 33.142
+    },
+    "Reno/Tahoe International": {
+      "dest_ArrDel15_count": 1030,
+      "dest_ArrDel15_mean": 0.22,
+      "dest_ArrDel15_std": 0.415,
+      "dest_DepDelay_mean": 10.612,
+      "dest_DepDelay_std": 33.195,
+      "dest_ArrDelay_mean": 7.256,
+      "dest_ArrDelay_std": 32.819
+    },
+    "Richmond International": {
+      "dest_ArrDel15_count": 1150,
+      "dest_ArrDel15_mean": 0.252,
+      "dest_ArrDel15_std": 0.434,
+      "dest_DepDelay_mean": 12.63,
+      "dest_DepDelay_std": 35.338,
+      "dest_ArrDelay_mean": 9.762,
+      "dest_ArrDelay_std": 38.273
+    },
+    "Ronald Reagan Washington National": {
+      "dest_ArrDel15_count": 4288,
+      "dest_ArrDel15_mean": 0.22,
+      "dest_ArrDel15_std": 0.414,
+      "dest_DepDelay_mean": 8.681,
+      "dest_DepDelay_std": 33.547,
+      "dest_ArrDelay_mean": 6.691,
+      "dest_ArrDelay_std": 37.258
+    },
+    "Sacramento International": {
+      "dest_ArrDel15_count": 2547,
+      "dest_ArrDel15_mean": 0.198,
+      "dest_ArrDel15_std": 0.399,
+      "dest_DepDelay_mean": 10.829,
+      "dest_DepDelay_std": 32.567,
+      "dest_ArrDelay_mean": 6.478,
+      "dest_ArrDelay_std": 33.712
+    },
+    "Salt Lake City International": {
+      "dest_ArrDel15_count": 4914,
+      "dest_ArrDel15_mean": 0.152,
+      "dest_ArrDel15_std": 0.359,
+      "dest_DepDelay_mean": 6.286,
+      "dest_DepDelay_std": 32.18,
+      "dest_ArrDelay_mean": 2.511,
+      "dest_ArrDelay_std": 33.432
+    },
+    "San Antonio International": {
+      "dest_ArrDel15_count": 2351,
+      "dest_ArrDel15_mean": 0.228,
+      "dest_ArrDel15_std": 0.42,
+      "dest_DepDelay_mean": 11.275,
+      "dest_DepDelay_std": 27.884,
+      "dest_ArrDelay_mean": 7.336,
+      "dest_ArrDelay_std": 30.091
+    },
+    "San Diego International": {
+      "dest_ArrDel15_count": 4536,
+      "dest_ArrDel15_mean": 0.205,
+      "dest_ArrDel15_std": 0.404,
+      "dest_DepDelay_mean": 9.597,
+      "dest_DepDelay_std": 28.914,
+      "dest_ArrDelay_mean": 5.226,
+      "dest_ArrDelay_std": 30.886
+    },
+    "San Francisco International": {
+      "dest_ArrDel15_count": 8342,
+      "dest_ArrDel15_mean": 0.3,
+      "dest_ArrDel15_std": 0.458,
+      "dest_DepDelay_mean": 18.315,
+      "dest_DepDelay_std": 43.158,
+      "dest_ArrDelay_mean": 12.998,
+      "dest_ArrDelay_std": 47.288
+    },
+    "Seattle/Tacoma International": {
+      "dest_ArrDel15_count": 5976,
+      "dest_ArrDel15_mean": 0.159,
+      "dest_ArrDel15_std": 0.365,
+      "dest_DepDelay_mean": 5.836,
+      "dest_DepDelay_std": 28.059,
+      "dest_ArrDelay_mean": 1.684,
+      "dest_ArrDelay_std": 30.082
+    },
+    "Southwest Florida International": {
+      "dest_ArrDel15_count": 1258,
+      "dest_ArrDel15_mean": 0.188,
+      "dest_ArrDel15_std": 0.391,
+      "dest_DepDelay_mean": 8.505,
+      "dest_DepDelay_std": 35.266,
+      "dest_ArrDelay_mean": 4.658,
+      "dest_ArrDelay_std": 37.648
+    },
+    "Tampa International": {
+      "dest_ArrDel15_count": 3580,
+      "dest_ArrDel15_mean": 0.209,
+      "dest_ArrDel15_std": 0.407,
+      "dest_DepDelay_mean": 10.58,
+      "dest_DepDelay_std": 33.07,
+      "dest_ArrDelay_mean": 6.181,
+      "dest_ArrDelay_std": 35.626
+    },
+    "Ted Stevens Anchorage International": {
+      "dest_ArrDel15_count": 746,
+      "dest_ArrDel15_mean": 0.145,
+      "dest_ArrDel15_std": 0.352,
+      "dest_DepDelay_mean": 5.811,
+      "dest_DepDelay_std": 22.968,
+      "dest_ArrDelay_mean": -1.277,
+      "dest_ArrDelay_std": 25.746
+    },
+    "Theodore Francis Green State": {
+      "dest_ArrDel15_count": 1017,
+      "dest_ArrDel15_mean": 0.252,
+      "dest_ArrDel15_std": 0.434,
+      "dest_DepDelay_mean": 10.865,
+      "dest_DepDelay_std": 29.402,
+      "dest_ArrDelay_mean": 7.834,
+      "dest_ArrDelay_std": 32.222
+    },
+    "Tucson International": {
+      "dest_ArrDel15_count": 1085,
+      "dest_ArrDel15_mean": 0.202,
+      "dest_ArrDel15_std": 0.402,
+      "dest_DepDelay_mean": 8.81,
+      "dest_DepDelay_std": 26.929,
+      "dest_ArrDelay_mean": 6.089,
+      "dest_ArrDelay_std": 27.544
+    },
+    "Washington Dulles International": {
+      "dest_ArrDel15_count": 3850,
+      "dest_ArrDel15_mean": 0.232,
+      "dest_ArrDel15_std": 0.422,
+      "dest_DepDelay_mean": 11.509,
+      "dest_DepDelay_std": 38.431,
+      "dest_ArrDelay_mean": 7.331,
+      "dest_ArrDelay_std": 41.003
+    },
+    "Will Rogers World": {
+      "dest_ArrDel15_count": 1411,
+      "dest_ArrDel15_mean": 0.259,
+      "dest_ArrDel15_std": 0.438,
+      "dest_DepDelay_mean": 13.262,
+      "dest_DepDelay_std": 31.88,
+      "dest_ArrDelay_mean": 10.4,
+      "dest_ArrDelay_std": 34.207
+    },
+    "William P Hobby": {
+      "dest_ArrDel15_count": 2946,
+      "dest_ArrDel15_mean": 0.226,
+      "dest_ArrDel15_std": 0.418,
+      "dest_DepDelay_mean": 11.405,
+      "dest_DepDelay_std": 29.1,
+      "dest_ArrDelay_mean": 7.237,
+      "dest_ArrDelay_std": 31.535
+    }
+  }
+}

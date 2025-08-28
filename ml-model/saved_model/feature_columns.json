@@ -1,0 +1,22 @@
+[
+  "DayOfWeek",
+  "departure_hour",
+  "arrival_hour",
+  "state_distance",
+  "is_weekend",
+  "CRSDepTime",
+  "CRSArrTime",
+  "origin_ArrDel15_count",
+  "origin_ArrDel15_mean",
+  "origin_ArrDel15_std",
+  "origin_DepDelay_mean",
+  "origin_DepDelay_std",
+  "dest_ArrDel15_count",
+  "dest_ArrDel15_mean",
+  "dest_ArrDel15_std",
+  "dest_DepDelay_mean",
+  "dest_DepDelay_std",
+  "Carrier_encoded",
+  "departure_period_encoded",
+  "season_encoded"
+]
